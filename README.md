@@ -5,7 +5,7 @@ To manualy deploy Kubernetes cluster on physical or virtual machines follow this
 ## Pre-requisites
 Two or more physical or virtual machines with network card and Ubuntu 20.04 installed. One machine for Kubernetes Master and at least one for Kubernetes node.
 - Kubernates master must have at least 2 CPUs (at least 2 CPU cores, not 2 physical CPUs) and 2GB RAM.
-- Nodes can be as small as 1 CPU and 1GBof RAM.
+- Nodes can be as small as 1 CPU and 1GB of RAM.
 
 ## Installing Kubernetes Master
 First update the machine:
