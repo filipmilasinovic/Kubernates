@@ -24,9 +24,16 @@ sudo systemctl enable docker
 ```
 
 ### Install Kubernetes
+Get and add GPG (Gnu Privacy Guard) key
 ```
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
+```
+Add Kubernetes repository
+```
 sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
+```
+Finally install Kubernetes
+```
 sudo apt-get install kubeadm kubelet kubectl -y
 ```
 
