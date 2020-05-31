@@ -42,7 +42,7 @@ Set hostname
 ```
 sudo hostnamectl set-hostname kubemaster
 ```
-Edit **/etc/hosts** file as root or edit it in editor
+Edit **/etc/hosts** file as root or edit it in editor. You may add your DNS server and A records for cluster machines instad editing hosts file on every machine.
 ```
 cat >>/etc/hosts<<EOF
 192.198.10.100 kubemaster.example.com kubemaster
