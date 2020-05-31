@@ -32,7 +32,7 @@ Add Kubernetes repository
 ```
 sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 ```
-Finally install Kubernetes
+Finally install Kubernetes by adding kubeadm, kubelet and kubectl
 ```
 sudo apt-get install kubeadm kubelet kubectl -y
 ```
